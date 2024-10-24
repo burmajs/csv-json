@@ -1,0 +1,23 @@
+{
+  "name": "@burmajs/csv-json",
+  "version": "0.1.0",
+  "description": "",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/cjs/index.cjs"
+    }
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.7.9",
+    "dax-sh": "^0.42.0",
+    "typescript": "^5.6.3"
+  }
+}
